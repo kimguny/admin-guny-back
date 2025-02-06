@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  nginx:
+    profiles:
+      - do-not-start
+  certbot:
+    profiles:
+      - do-not-start
